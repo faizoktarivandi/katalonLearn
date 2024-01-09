@@ -19,23 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Lenovo\\Downloads\\Study\\Eduwork\\katalonApps\\eduApp\\APK\\app-pendaki.apk', false)
 
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.CheckedTextView - Peralatan'), 0)
-
-Mobile.scrollToText('Gaiter')
-
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.LinearLayout'), 0)
+Mobile.scrollToText('argopoera')
 
 Mobile.pressBack()
 
-Mobile.scrollToText('Tenda')
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageView (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.RelativeLayout'), 0)
-
-Mobile.scrollToText('saat akan mendaki')
+Mobile.scrollToText('ogal-agil')
 
 Mobile.pressBack()
+
+Mobile.scrollToText('semeru')
+
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageView (2)'), 0)
 
 Mobile.pressBack()
 

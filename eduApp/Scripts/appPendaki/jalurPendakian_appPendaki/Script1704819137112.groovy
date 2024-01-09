@@ -17,27 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Lenovo\\Downloads\\Study\\Eduwork\\katalonApps\\eduApp\\APK\\app-pendaki.apk', false)
+Mobile.startApplication('C:\\Users\\Lenovo\\Downloads\\Study\\Eduwork\\katalonApps\\eduApp\\APK\\app-pendaki.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageButton'), 0)
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageButton (1)'), 0)
 
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.CheckedTextView - Peralatan'), 0)
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.CheckedTextView - Informasi Pendakian'), 0)
 
-Mobile.scrollToText('Gaiter')
+Mobile.scrollToText('Gunung Wilis')
 
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.LinearLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.TextView - Pendakian Gunung Wilis'), 0)
 
-Mobile.pressBack()
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.Button - Jalur Kare'), 0)
 
-Mobile.scrollToText('Tenda')
-
-Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.RelativeLayout'), 0)
-
-Mobile.scrollToText('saat akan mendaki')
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.Button - Jalur Penampihan'), 0)
 
 Mobile.pressBack()
 
+Mobile.scrollToText('arjuno')
+
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.TextView - Pendakian Gunung Arjuno'), 0)
+
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.Button - Jalur Tretes'), 0)
+
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.Button - Jalur Lawang'), 0)
+
 Mobile.pressBack()
+
+Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageButton (1)'), 0)
 
 Mobile.closeApplication()
 

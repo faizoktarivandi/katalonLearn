@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Test Case selama pembelajaran materi Eduwork</description>
-   <name>eduApp</name>
+   <description></description>
+   <name>appPendaki</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>613dc2c6-79ff-48c8-97c3-266ba37d8773</testSuiteGuid>
+   <testSuiteGuid>2ceb2d81-0b9a-4fdc-ba67-06841d087ccf</testSuiteGuid>
    <testCaseLink>
-      <guid>73cc2149-ad3c-48d1-a458-a21e11c5eeaa</guid>
+      <guid>d3d1e868-acbf-4ec9-b3c5-04a835bb1a62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/appPendaki/jalurPendakian_appPendaki</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19e652d9-5fb9-40bc-9f1e-0d956f36fcf8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/appPendaki/infoGunung_appPendaki</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3824535a-d66f-42b1-8235-e4a8499a5bfe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/appPendaki/detailPeralatan_appPendaki</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>094ce812-fa40-4038-82e8-a9f6d8e70ca8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/samsungShop/samsungShopFix</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9a49eeab-aa4a-45af-a131-7af40298f0b7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Calculator/kalkulatorBasic</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
