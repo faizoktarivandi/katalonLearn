@@ -35,6 +35,8 @@ Mobile.scrollToText('semeru')
 
 Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.ImageView (2)'), 0)
 
+Mobile.takeScreenshot("D://screenshoot2.png", FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.closeApplication()

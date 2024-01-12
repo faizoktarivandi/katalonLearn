@@ -35,6 +35,8 @@ Mobile.tap(findTestObject('Object Repository/appPendaki/android.widget.RelativeL
 
 Mobile.scrollToText('saat akan mendaki')
 
+Mobile.takeScreenshot("D://screenshoot1.png", FailureHandling.STOP_ON_FAILURE)
+
 Mobile.pressBack()
 
 Mobile.pressBack()
